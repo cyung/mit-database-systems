@@ -1,0 +1,2245 @@
+Test: Concurrent Put/Get/Move ...
+102: Reconfiguring...
+102: shards [0 0 0 0 0 0 0 0 0 0]
+102: new shards [100 100 100 100 100 100 100 100 100 100]
+102: shards [100 100 100 100 100 100 100 100 100 100]
+102: new shards [100 100 100 100 100 100 100 100 100 100]
+102: Reconfiguring...
+102: shards [0 0 0 0 0 0 0 0 0 0]
+102: new shards [100 100 100 100 100 100 100 100 100 100]
+102: shards [100 100 100 100 100 100 100 100 100 100]
+102: new shards [100 100 100 100 100 100 100 100 100 100]
+102: Reconfiguring...
+102: shards [0 0 0 0 0 0 0 0 0 0]
+102: new shards [100 100 100 100 100 100 100 100 100 100]
+102: shards [100 100 100 100 100 100 100 100 100 100]
+102: new shards [100 100 100 100 100 100 100 100 100 100]
+102: Append(3, 6334824724549167320)
+102: GET(3)
+102: Append(7, 1443635317331776148)
+102: GET(7)
+102: Append(2, 3916589616287113937)
+102: GET(2)
+100: Reconfiguring...
+100: shards [0 0 0 0 0 0 0 0 0 0]
+100: new shards [100 100 100 100 100 100 100 100 100 100]
+100: shards [100 100 100 100 100 100 100 100 100 100]
+100: new shards [100 100 100 100 100 100 100 100 100 100]
+100: Reconfiguring...
+100: shards [0 0 0 0 0 0 0 0 0 0]
+100: new shards [100 100 100 100 100 100 100 100 100 100]
+100: shards [100 100 100 100 100 100 100 100 100 100]
+100: new shards [100 100 100 100 100 100 100 100 100 100]
+102: Reconfiguring...
+102: shards [100 100 100 100 100 100 100 100 100 100]
+102: new shards [102 102 101 101 101 102 100 100 100 100]
+100: Reconfiguring...
+100: shards [100 100 100 100 100 100 100 100 100 100]
+100: new shards [102 102 101 101 101 102 100 100 100 100]
+100: Append(10, 5577006791947779410)
+100: Append(9, 4751997750760398084)
+100: Reconfiguring...
+100: shards [0 0 0 0 0 0 0 0 0 0]
+100: new shards [100 100 100 100 100 100 100 100 100 100]
+100: shards [100 100 100 100 100 100 100 100 100 100]
+100: new shards [100 100 100 100 100 100 100 100 100 100]
+100: Append(8, 894385949183117216)
+101: Reconfiguring...
+101: shards [0 0 0 0 0 0 0 0 0 0]
+101: new shards [100 100 100 100 100 100 100 100 100 100]
+100: Append(1, 4037200794235010051)
+101: shards [100 100 100 100 100 100 100 100 100 100]
+101: new shards [100 100 100 100 100 100 100 100 100 100]
+100: Append(0, 6129484611666145821)
+101: Reconfiguring...
+101: shards [0 0 0 0 0 0 0 0 0 0]
+101: new shards [100 100 100 100 100 100 100 100 100 100]
+101: shards [100 100 100 100 100 100 100 100 100 100]
+101: new shards [100 100 100 100 100 100 100 100 100 100]
+100: GetShard(0)
+100: Reconfiguring...
+100: shards [100 100 100 100 100 100 100 100 100 100]
+100: new shards [102 102 101 101 101 102 100 100 100 100]
+100: GET(10)
+102: Acquiring new data map[]
+101: Reconfiguring...
+101: shards [0 0 0 0 0 0 0 0 0 0]
+101: new shards [100 100 100 100 100 100 100 100 100 100]
+101: shards [100 100 100 100 100 100 100 100 100 100]
+101: new shards [100 100 100 100 100 100 100 100 100 100]
+100: GET(9)
+100: GET(8)
+102: Reconfiguring...
+102: shards [100 100 100 100 100 100 100 100 100 100]
+102: new shards [102 102 101 101 101 102 100 100 100 100]
+100: GET(1)
+102: Reconfiguring...
+102: shards [100 100 100 100 100 100 100 100 100 100]
+102: new shards [102 102 101 101 101 102 100 100 100 100]
+100: GET(0)
+100: Reconfiguring...
+100: shards [100 100 100 100 100 100 100 100 100 100]
+100: new shards [102 102 101 101 101 102 100 100 100 100]
+100: GetShard(1)
+101: Reconfiguring...
+101: shards [100 100 100 100 100 100 100 100 100 100]
+101: new shards [102 102 101 101 101 102 100 100 100 100]
+100: GetShard(0)
+102: Acquiring new data map[]
+101: Reconfiguring...
+101: shards [100 100 100 100 100 100 100 100 100 100]
+101: new shards [102 102 101 101 101 102 100 100 100 100]
+100: GetShard(0)
+102: Acquiring new data map[]
+101: Reconfiguring...
+101: shards [100 100 100 100 100 100 100 100 100 100]
+101: new shards [102 102 101 101 101 102 100 100 100 100]
+100: GetShard(2)
+102: Acquiring new data map[]
+100: GetShard(2)
+101: Acquiring new data map[]
+100: GetShard(5)
+101: Acquiring new data map[]
+100: GetShard(2)
+102: Acquiring new data map[]
+100: GetShard(1)
+101: Acquiring new data map[]
+100: GetShard(1)
+102: Acquiring new data map[]
+100: GetShard(3)
+102: Acquiring new data map[]
+100: GetShard(3)
+101: Acquiring new data map[]
+100: Append(10, 2703501726821866378)
+101: Acquiring new data map[]
+100: Append(8, 2740103009342231109)
+100: Append(9, 1905388747193831650)
+100: GetShard(3)
+100: Append(1, 6426100070888298971)
+101: Acquiring new data map[]
+100: GetShard(5)
+100: GetShard(5)
+102: Acquiring new data map[]
+102: GET(3)
+100: Append(0, 4831389563158288344)
+102: GET(7)
+102: Acquiring new data map[]
+100: Reconfiguring...
+100: shards [102 102 101 101 101 102 100 100 100 100]
+100: new shards [102 102 101 101 100 100 100 100 100 100]
+100: GetShard(4)
+102: GET(2)
+100: Failed to configure
+100: GetShard(4)
+101: Acquiring new data map[]
+101: Append(5, 605394647632969758)
+101: Acquiring new data map[]
+101: Append(4, 8674665223082153551)
+102: Append(3, 2781055864473387780)
+100: Reconfiguring...
+100: shards [102 102 101 101 101 102 100 100 100 100]
+100: new shards [102 102 101 101 100 100 100 100 100 100]
+101: Append(6, 2775422040480279449)
+102: Append(7, 1598098976185383115)
+101: GET(5)
+102: GET(3)
+101: GetShard(4)
+102: GET(7)
+101: GET(4)
+100: Acquiring new data map[6:2775422040480279449]
+102: Append(2, 3902890183311134652)
+100: Reconfiguring...
+100: shards [102 102 101 101 101 102 100 100 100 100]
+100: new shards [101 102 101 102 100 100 100 101 102 100]
+101: GET(6)
+102: GetShard(5)
+101: GetShard(4)
+102: GET(2)
+100: Acquiring new data map[7:14436353173317761481598098976185383115]
+100: Acquiring new data map[6:2775422040480279449]
+100: Reconfiguring...
+100: shards [102 102 101 101 101 102 100 100 100 100]
+100: new shards [102 102 101 101 100 100 100 100 100 100]
+101: GetShard(4)
+102: GetShard(5)
+101: Append(5, 9010467728050264449)
+100: Acquiring new data map[6:2775422040480279449]
+102: GetShard(5)
+100: Acquiring new data map[7:14436353173317761481598098976185383115]
+100: GET(10)
+101: GET(5)
+100: GET(8)
+102: Append(7, 2873287401706343734)
+100: Acquiring new data map[7:14436353173317761481598098976185383115]
+101: Append(4, 8273290538659802269)
+102: Append(3, 3950896730125624717)
+100: GET(9)
+100: GetShard(4)
+101: GET(4)
+102: GET(7)
+100: GET(1)
+100: Reconfiguring...
+100: shards [102 102 101 101 100 100 100 100 100 100]
+100: new shards [102 102 101 101 100 100 100 100 102 100]
+101: Acquiring new data map[6:2775422040480279449]
+101: Append(6, 837825985403119657)
+102: GET(3)
+100: GET(0)
+101: GET(6)
+102: Append(2, 6971241403795498694)
+102: GET(2)
+100: Append(10, 8267293389953062911)
+100: Reconfiguring...
+100: shards [102 102 101 101 100 100 100 100 100 100]
+100: new shards [102 102 101 101 100 100 100 100 102 100]
+100: GET(10)
+101: Append(5, 3409814636252858217)
+100: Reconfiguring...
+100: shards [102 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 101 100 100 100 100 102 100]
+100: Append(8, 2184302455902443631)
+101: GET(5)
+100: GET(8)
+101: Append(4, 3784560248718450071)
+102: Reconfiguring...
+102: shards [102 102 101 101 101 102 100 100 100 100]
+102: new shards [102 102 101 101 100 100 100 100 100 100]
+100: Append(1, 5074209722772702441)
+100: GET(1)
+100: Reconfiguring...
+100: shards [102 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 101 100 100 100 100 102 100]
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+102: Reconfiguring...
+102: shards [102 102 101 101 100 100 100 100 100 100]
+102: new shards [102 102 101 101 100 100 100 100 102 100]
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+102: Reconfiguring...
+102: shards [102 102 101 101 101 102 100 100 100 100]
+102: new shards [101 101 101 102 100 102 100 101 102 102]
+102: Reconfiguring...
+102: shards [102 102 101 101 101 102 100 100 100 100]
+102: new shards [102 102 101 101 100 100 100 100 100 100]
+101: Reconfiguring...
+101: shards [102 102 101 101 101 102 100 100 100 100]
+101: new shards [101 101 101 102 100 102 100 101 102 102]
+101: Reconfiguring...
+101: shards [102 102 101 101 101 102 100 100 100 100]
+101: new shards [102 102 101 101 100 100 100 100 100 100]
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+102: Reconfiguring...
+102: shards [102 102 101 101 100 100 100 100 100 100]
+102: new shards [102 102 101 101 100 100 100 100 102 100]
+101: Reconfiguring...
+101: shards [102 102 101 101 101 102 100 100 100 100]
+101: new shards [102 102 101 101 100 100 100 100 100 100]
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 100 100]
+101: new shards [102 102 101 101 100 100 100 100 102 100]
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 100 100]
+101: new shards [102 102 101 101 100 100 100 100 102 100]
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 102 100 100 100 101 102 100]
+100: new shards [101 101 101 100 101 102 100 101 102 102]
+100: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+101: Reconfiguring...
+101: shards [102 102 101 101 100 100 100 100 102 100]
+101: new shards [101 102 101 101 100 100 100 100 102 100]
+101: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
+100: Failed to configure
+100: Reconfiguring...
+100: shards [101 102 101 101 100 100 100 100 102 100]
+100: new shards [101 102 101 100 100 100 100 100 102 100]
